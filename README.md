@@ -6,7 +6,7 @@ In this tutorial we're able to recognize the text on that sign? Let's give it a 
 First, we need to determine a bounding box for that sign. OCR works better with higher resolution images, so increase the size of this image by using the pillow resize() function. 
 *The Image.LANCZOS and Image.BICUBIC filters do a good job
 
-<img src="storefront.png" alt="storefront" width="800"/>
+<img src="storefront.jpg" alt="storefront" width="800"/>
 
 
 #### How should we pick the best binarization to use? 
